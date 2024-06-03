@@ -24,8 +24,12 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+
 # local env files
 .env*.local
+.env
+# ===========================
+
 
 # vercel
 .vercel
@@ -33,3 +37,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# 9-4-Previewing Emails
+# ----------------------
+
+# we don't want to track any files of preview-email in this folder.
+.react-email/

@@ -1,0 +1,9 @@
+/* 3-3- CSS Modules */
+
+/* in CSS modules, we cannot use hyphens when naming these classes like 
+"card-container" because this is not a valid name for a javascript property.
+So in these files always use the camel case notation*/
+.card {
+    padding: 1rem;
+    border: 1px solid #ccc;
+}
